@@ -9,6 +9,21 @@ Multi-Label Classification
 
 일반적인 분류 모델과는 다르게 다중 레이블 분류 (Multi-Label Classification)는 데이터가 동시에 여러 카테고리에 속할 수 있는 상황을 다룬다. 이를 통해 여러 종류에 속하는 창업 아이디어의 Tag를 적용할 수 있었음.
 
+학습 데이터
+-----------
+
+학습 데이터는 ChatGPT를 통해 임의로 생성해 낸 약 2500개의 문장들을 사용하였다.
+
+학습 하이퍼파라미터
+-----------
+
+max_len = 64
+batch_size = 64
+warmup_ratio = 0.1
+num_epochs = 10
+max_grad_norm = 1
+learning_rate =  5e-5
+
 학습 결과
 -----------
 
@@ -17,3 +32,8 @@ Multi-Label Classification
 
 ![test_result](https://github.com/mmmosd/KoBERTag/blob/main/train_img/test_history.png)
 (테스트 결과)
+
+![image](https://github.com/user-attachments/assets/4d85830f-f6a3-44b7-b968-2297de688fd3)
+(실제로 입력 시 분류가 잘 됨)
+
+하지만 이럼에도 불구하고 학습 데이터의 양이 많지 않았으며, 학습 데이터의 품질도 좋지 않아 분류가 잘 되지 않는 Tag들도 있었다. 이러한 문제는 추후에 데이터를 얻게 된다면 해결될 문제인 듯 하다.
