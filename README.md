@@ -27,13 +27,13 @@ learning_rate =  5e-5
 학습 결과
 -----------
 
-![train_result](https://github.com/mmmosd/KoBERTag/blob/main/train_img/train_history.png)
+![train_result]([https://github.com/mmmosd/KoBERTag/blob/main/train_img/train_history.png](https://github.com/mmmosd/KoBERTag/blob/main/img/train_history.png?raw=true))
 (학습 결과)
 
-![test_result](https://github.com/mmmosd/KoBERTag/blob/main/train_img/test_history.png)
+![test_result]([https://github.com/mmmosd/KoBERTag/blob/main/train_img/test_history.png](https://github.com/mmmosd/KoBERTag/blob/main/img/test_history.png?raw=true))
 (테스트 결과)
 
-![test](https://github.com/mmmosd/KoBERTag/blob/main/train_img/test.png)
+![test]([https://github.com/mmmosd/KoBERTag/blob/main/train_img/test.png](https://github.com/mmmosd/KoBERTag/blob/main/img/test.png?raw=true))
 (실제로 잘됨)
 
 하지만 이럼에도 불구하고 학습 데이터의 양이 많지 않았으며, 학습 데이터의 품질도 좋지 않아 분류가 잘 되지 않는 Tag들도 있었다. 이러한 문제는 추후에 데이터를 얻게 된다면 해결될 문제인 듯 하다.
